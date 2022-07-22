@@ -4,9 +4,8 @@ header {
     flex-wrap: wrap;
     padding: 20px 35px;
     top: 0;
-    top: 0;
+    background-image: url("../image/assignment-309-iconic-locations-zack.knudsen-0-1510932796-1024x684.jpg");
     background-size: cover;
-    background-position: center;
     background-attachment: fixed;
     background-position: 80%;
     z-index: 9999;
