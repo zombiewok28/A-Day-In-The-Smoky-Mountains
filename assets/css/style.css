@@ -39,6 +39,10 @@ header nav {
     text-shadow: none;
   }
 
-  .columns {
-    
+  .columns{
+    background-color: chocolate;
+  }
+
+  .amenities {
+    text-align: center;
   }
