@@ -4,7 +4,7 @@
   --chocolate: chocolate;
   --grey: #313030;
 }
-
+/*begin header and nav*/
 h1 {
     text-align: center;
 }
@@ -47,7 +47,9 @@ header nav {
     color: white;
     text-shadow: none;
   }
+  /*End header and nav*/
 
+  /*begin body*/
   body {
     background-color: var(--grey);
   }
@@ -67,3 +69,7 @@ header nav {
   .amenities {
     text-align: center;
   }
+/*end body*/
+
+/*footer*/
+
