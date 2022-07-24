@@ -1,3 +1,10 @@
+:root {
+  --green: rgb(#013220);
+  --white: white;
+  --chocolate: chocolate;
+  --grey: #313030;
+}
+
 h1 {
     text-align: center;
 }
@@ -34,13 +41,27 @@ header nav {
   }
   
   header nav ul li a:hover {
+    opacity: 0.8;
+    transition: opacity 1s ease-in-out 0.4s;
     background: blue;
     color: white;
     text-shadow: none;
   }
 
+  body {
+    background-color: var(--grey);
+  }
+
+  .column{
+    border-left: 2px solid white;
+  }
+
   .columns{
     background-color: chocolate;
+  }
+
+  .hero{
+    color: white;
   }
 
   .amenities {
