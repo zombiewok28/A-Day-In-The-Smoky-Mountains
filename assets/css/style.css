@@ -41,6 +41,8 @@ header nav {
   }
   
   header nav ul li a:hover {
+    opacity: 0.8;
+    transition: opacity 1s ease-in-out 0.4s;
     background: chocolate;
     color: white;
     text-shadow: none;
@@ -56,10 +58,6 @@ header nav {
 
   .columns{
     background-color: rgb(70, 79, 122);
-  }
-
-  .column {
-    border-left: 5px solid white;
   }
 
   .hero{
