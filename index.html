@@ -5,57 +5,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <title>Day In the Smoky Mountains</title>
 </head>
 <body>
+    
         <!--Navigation Tags-->
         <header>
 
-            <h1>The Great Smoky Mountains</h1>
 
             <nav>
-                <ul>
+                <ul id="linksContainer">
                     <li>
-                        <a href="#about-us">About Us</a>
+                        <a href="#about-us" style="color: white" class="is-size-3">About Us</a>
                     </li>
                     <li>
-                        <a href="#amenities">Amenities</a>
+                        <a href="#amenities" style="color:white" class="is-size-3">Amenities</a>
                     </li>
                     <li>
-                        <a href="#weather">Weather</a>
+                        <a href="#weather" style="color:white" class="is-size-3" >Weather</a>
                     </li>
                     <li>
-                        <a href="#location">Location</a>
+                        <a href="#location" style="color:white" class="is-size-3">Location</a>
                     </li>
                     <li>
-                        <a href="#contact-us">Contact Us</a>
+                        <a href="#contact-us" style="color:white" class="is-size-3">Contact Us</a>
                     </li>
                 </ul>
-                
+                <div>
+
             </nav>
             <!--End Navigation-->
 
-            <!--About Us Start-->
+            <!--Title start-->
             <section id="about-us" class="hero">
-                <div class="hero-cta">
-                    
-                    <h2 class="section-title secondary-border">
-                        About The Smoky Mountains
-                    </h2>
-                    <p>
-                        Info about us/history/park hours.
-                    </p>
+                <div>
+                    <br>
+                    <h1 style="color:aliceblue" class="is-size-1">The Great Smoky Mountains</h1>
                 </div>
             </section>
-            <!--About Us End-->
+            <!--Title end-->
         </header>
+
+        <!--Park history start-->
+        <div class="columns">
+            <div class="column is-three-quarters is-size-3">
+              Park History
+              <p class="is-size-6">
+                fnadlkfnasldkfnasdkfsadlkfsdanfklsdafnsd
+                dlksfnsdaklfnsdfs
+                laksdfndslfknsdlkfn
+                lsdfnlksdfsdnfklsdnf
+              </p>
+            </div>
+            <div class="column is-one-quarter is-size-3">
+              Park Hours
+              <p class="has-text-centered is-size-6">
+                Monday-
+                Tuesday-
+                Wednesday-
+                Thursday-
+                Friday- 
+                Saturday- 
+                Sunday-
+              </p>
+            </div>
+          </div>
+        <!--Park history end-->
 
         <!--Amenities Start-->
         <section id="amenities" class="hero">
             <div class="hero-cta">
-                <h2 class="section-title secondary-border">
+
+                <h2>
+
                     Amenities
-                </h2>
+                </h2>  
                 <p>
                     Top ten Amenities
                 </p>
@@ -78,7 +103,9 @@
         <!--Weather Start-->
         <section id="weather" class="hero">
             <div class="hero-cta">
-                <h2 class="section-title secondary-border">
+
+                <h2>
+
                     Weather Forecast
                 </h2>
                 <p>
@@ -90,8 +117,10 @@
 
         <!--Locations Start-->
         <section id="location" class="hero">
-            <div class="hero-cta">
-                <h2 class="section-title secondary-border">
+
+            
+                <h2>
+
                     Locations
                 </h2>
                 <p>
@@ -104,20 +133,26 @@
             
             </iframe>
 
-            </div>
+            
         </section>
         <!--Locations End-->
 
         <!--Footer/Contact Info Start-->
-        <footer>
-            <h2 id="contact-us">Contact Us</h2>
-            <div>
-                <p>
-                Email: Thesmokymountains@gmail.com Phone Number: (123)456-7890
-                </p>
+        <footer class="footer" >
+            <div id="contact-us" class="is-size-1 has-text-centered">Contact Us</div>
+            <div class="has-text-centered">
+                <p>Email: Thesmokymountains@gmail.com</p>
+                <p>Phone Number: 123-456-7890 </p>
+                <p>Authors of Website: 
+                    <a href="https://github.com/jasontimlin10372">Jason Timlin</a>,
+                    <a href="https://github.com/TrevorGrilley">Trevor Grilley,</a> 
+                    <a href="https://github.com/Rdeaki">Ricky Deakins,</a>
+                    <a href="https://github.com/joshuapward2">Joshua Ward,</a>
+                    </p>
             </div>
         </footer>
         <!--Footer/Contact Info End-->
+    
 
         <script src="./assets/js/script.js"></script>
 </body>
