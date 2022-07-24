@@ -1,3 +1,10 @@
+:root {
+  --green: rgb(#013220);
+  --white: white;
+  --chocolate: chocolate;
+  --grey: #313030;
+}
+
 h1 {
     text-align: center;
 }
@@ -39,12 +46,24 @@ header nav {
     text-shadow: none;
   }
 
+  body {
+    background-color: var(--grey);
+  }
+
+  .column{
+    border-left: 2px solid white;
+  }
+
   .columns{
     background-color: rgb(70, 79, 122);
   }
 
   .column {
     border-left: 5px solid white;
+  }
+
+  .hero{
+    color: white;
   }
 
   .amenities {
