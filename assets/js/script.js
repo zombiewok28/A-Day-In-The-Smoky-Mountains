@@ -1,6 +1,4 @@
 
-
-
 function getApi() {
 
     // Api Url
