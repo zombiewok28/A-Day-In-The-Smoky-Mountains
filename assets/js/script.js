@@ -13,8 +13,27 @@ function getApi() {
         if(response.ok) {
             response.json().then(function(data) {
                 console.log(data);
-            } )
+            })
         }
     })
 }
 getApi();
+
+
+
+function getApiTwo() {
+
+    // Api Url
+    var urlRequestTwo = "https://developer.nps.gov/api/v1/parks?parkCode=acad&api_key=mBGn4CcseyYGFZxBpAU9GrVwE4YCxrhCtPngKKZ5";
+
+    fetch(urlRequestTwo).then(function(response) {
+        console.log(response);
+        //request response
+        if(response.ok) {
+            response.json().then(function(data) {
+                console.log(data);
+            })
+        }
+    })
+}
+getApiTwo();
