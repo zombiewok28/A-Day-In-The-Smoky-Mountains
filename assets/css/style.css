@@ -43,7 +43,7 @@ header nav {
   header nav ul li a:hover {
     opacity: 0.8;
     transition: opacity 1s ease-in-out 0.4s;
-    background: blue;
+    background: chocolate;
     color: white;
     text-shadow: none;
   }
@@ -54,12 +54,11 @@ header nav {
     background-color: var(--grey);
   }
 
-  .column{
-    border-left: 2px solid white;
-  }
-
+#hours{
+  border-left: 2px solid white;
+}
   .columns{
-    background-color: chocolate;
+    background-color: rgb(70, 79, 122);
   }
 
   .hero{
@@ -75,7 +74,26 @@ header nav {
     list-style-type: circle;
     margin-left: 25px;
   }
+/* i*/
+div.columns {
+  margin-top: 0px;
+}
+
+h1 {
+  margin-bottom: 20px;
+
+}
+
+.table td {
+  font-size: 17px
+}
+
+.table th {
+  font-size: 17px
+}
+  
 /*end body*/
 
 /*footer*/
+
 
