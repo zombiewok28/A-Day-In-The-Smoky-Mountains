@@ -1,18 +1,22 @@
 
-weatherLink = document.getElementById("#weather");
-//console.log ("https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&appid={3da63184704762e74a9d5e213f99d400}");
+weatherLink = document.getElementById("#weatherLink");
+alertsLink = document.getElementById("#alertsTag")
+console.log ("https://api.openweathermap.org/data/2.5/onecall?lat=35.7143&lon=83.5102&appid=d12707350df08c4703683ba822b2a53b");
 
 function getApi() {
 
      //ApiUrl
-    var urlRequest = "https://api.openweathermap.org/data/2.5/onecall?lat={35.61}&lon={83.55}&appid={d12707350df08c4703683ba822b2a53b}";
+    var urlRequest = "https://api.openweathermap.org/data/2.5/onecall?lat=35.7143&lon=83.5102&appid=d12707350df08c4703683ba822b2a53b";
 
     fetch(urlRequest).then(function(response) {
         console.log(response);
         //request response
         if(response.ok) {
-            response.json().then(function(data) {
-                console.log(data);
+            response.json().then(function(data1) {
+                console.log(data1);
+                if(weatherLink.clicked == true) {
+                    weatherLink.innerHtml = data1;
+                }
             })
         }
     })
@@ -32,8 +36,20 @@ function getApiTwo() {
         if(response.ok) {
             response.json().then(function(data) {
                 console.log(data);
+
+                if(alertsTag.clicked == true) {
+                    alertsTag.innerHtml = data;
+                }
             })
         }
     })
 }
 getApiTwo();
+
+
+
+function displayApis(data1, data){
+
+
+
+}
