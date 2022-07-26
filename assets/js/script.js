@@ -6,7 +6,7 @@ console.log ("https://api.openweathermap.org/data/2.5/onecall?lat=35.7143&lon=83
 function getApi() {
 
      //ApiUrl
-    var urlRequest = "https://api.openweathermap.org/data/2.5/onecall?lat=35.7143&lon=83.5102&units=imperial&appid=d12707350df08c4703683ba822b2a53b";
+    var urlRequest = "https://api.openweathermap.org/data/2.5/onecall?lat=35.653194&lon=-83.50702&units=imperial&appid=d12707350df08c4703683ba822b2a53b";
 
     fetch(urlRequest).then(function(response) {
         console.log(response);

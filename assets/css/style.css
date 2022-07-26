@@ -92,12 +92,10 @@ h1 {
   font-size: 17px
 }
 
-#wildlife{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding: 200px 200px;
+#visitor{
+  padding-top: 20px;
 }
+
   
 /*end body*/
 
