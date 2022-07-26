@@ -4,7 +4,7 @@
   --chocolate: chocolate;
   --grey: #313030;
 }
-
+/*begin header and nav*/
 h1 {
     text-align: center;
 }
@@ -47,23 +47,53 @@ header nav {
     color: white;
     text-shadow: none;
   }
+  /*End header and nav*/
 
+  /*begin body*/
   body {
     background-color: var(--grey);
   }
 
-  .column{
-    border-left: 2px solid white;
-  }
-
+#hours{
+  border-left: 2px solid white;
+}
   .columns{
     background-color: rgb(70, 79, 122);
   }
 
   .hero{
     color: white;
+    margin-left: 20px;
   }
 
   .amenities {
     text-align: center;
   }
+
+  ul{
+    list-style-type: circle;
+    margin-left: 25px;
+  }
+/* i*/
+div.columns {
+  margin-top: 0px;
+}
+
+h1 {
+  margin-bottom: 20px;
+
+}
+
+.table td {
+  font-size: 17px
+}
+
+.table th {
+  font-size: 17px
+}
+  
+/*end body*/
+
+/*footer*/
+
+
