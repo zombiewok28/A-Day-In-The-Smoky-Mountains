@@ -19,6 +19,7 @@ function getApi() {
                 
                 for (let i = 0; i < 6; i++) {
 
+                    // create and append
                     var div = document.createElement('div');
                     div.classList.add('card')
                     div.classList.add('column')
@@ -65,6 +66,21 @@ function getApiTwo() {
             response.json().then(function(data) {
                 console.log(data);
 
+                for (let i = 0; i < data.length; i++) {
+
+
+                  // create and append
+                var div2 = document.createElement("div")
+                div2.classList.add('card')
+                div2.classList.add('column')
+                alertsLink.appendChild(div2)
+
+                var alertsPEl = document.createElement("p")
+                div2.appendChild(alertsPEl)
+                alertsPEl.textContent = data[i]
+
+                }
+
                 // if(alertsTag.clicked == true) {
                 //     alertsTag.innerHtml = data;
                 // }
@@ -76,8 +92,7 @@ getApiTwo();
 
 
 
-function displayApis(data1, data){
+//function displayApis(data1, data){
 
 
 
-}
