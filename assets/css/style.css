@@ -91,6 +91,13 @@ h1 {
 .table th {
   font-size: 17px
 }
+
+#wildlife{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 200px 200px;
+}
   
 /*end body*/
 
