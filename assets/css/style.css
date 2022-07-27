@@ -108,11 +108,13 @@ h1 {
  
 .alerts {
   text-align: center;
-  position: relative;
+  padding-bottom: 10px;
 }
 
 #danger{
   margin: auto;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
   
 /*end body*/
