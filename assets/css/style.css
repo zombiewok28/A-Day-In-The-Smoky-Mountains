@@ -96,6 +96,14 @@ h1 {
   padding-top: 20px;
 }
 
+.alerts {
+  text-align: center;
+  position: relative;
+}
+
+#danger{
+  margin: auto;
+}
   
 /*end body*/
 
