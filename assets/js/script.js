@@ -29,12 +29,13 @@ function getApi() {
                     // temp
                     var pEl = document.createElement("p");
                     div.appendChild(pEl)
-                    pEl.textContent = data1.daily[i].temp.day
+                    pEl.textContent = data1.daily[i].temp.day + " ℉";
 
                     // weather
                     var pEl2 = document.createElement("p");
                     div.appendChild(pEl2)
                     pEl2.textContent = data1.daily[0].weather[0].main
+
 
                     // Icon
                     var iconImg = document.createElement("img");
