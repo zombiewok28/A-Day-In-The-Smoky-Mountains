@@ -66,18 +66,19 @@ function getApiTwo() {
             response.json().then(function(data) {
                 console.log(data);
 
-                for (let i = 0; i < data.length; i++) {
+                for (let i = 0; i < data.data.length; i++) {
 
 
                   // create and append
                 var div2 = document.createElement("div")
                 div2.classList.add('card')
                 div2.classList.add('column')
-                alertsLink.appendChild(div2)
+                
 
                 var alertsPEl = document.createElement("p")
                 div2.appendChild(alertsPEl)
-                alertsPEl.textContent = data[i]
+                alertsPEl.textContent = data.data[i]
+                alertsLink.appendChild(div2)
 
                 }
 
