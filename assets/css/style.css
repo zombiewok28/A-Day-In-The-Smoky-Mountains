@@ -96,13 +96,25 @@ h1 {
   padding-top: 20px;
 }
 
+.weekday{
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+}
+
+#alertsTag{
+  min-height: 200px;
+}
+ 
 .alerts {
   text-align: center;
-  position: relative;
+  padding-bottom: 10px;
 }
 
 #danger{
   margin: auto;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
   
 /*end body*/
