@@ -34,14 +34,20 @@ function getApi() {
                     // weather
                     var pEl2 = document.createElement("p");
                     div.appendChild(pEl2)
-                    pEl2.textContent = data1.daily[0].weather[0].main
+                    pEl2.textContent = data1.daily[i].weather[0].description
 
 
                     // Icon
                     var iconImg = document.createElement("img");
                     div.appendChild(iconImg)
-                    iconImg.src = 'http://openweathermap.org/img/wn/10d@2x.png'
-                
+                   iconImg.src = iconImg.src = 'http://openweathermap.org/img/wn/10d@2x.png'
+
+                   // humidity
+                   var humidityEl = document.createElement("p");
+                   div.appendChild(humidityEl)
+                    humidityEl.textContent = " Humidity index: " + data1.daily[i].humidity
+                    
+                 
                 }
 
                 
