@@ -77,7 +77,7 @@ function getApiTwo() {
 
                 var alertsPEl = document.createElement("p")
                 div2.appendChild(alertsPEl)
-                alertsPEl.textContent = data.data[i]
+                alertsPEl.textContent = data.data[i].description
                 alertsLink.appendChild(div2)
 
                 }
