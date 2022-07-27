@@ -80,6 +80,12 @@ function getApiTwo() {
                 div2.classList.add('column')
                 
                 //alerts text appended
+                var alertsHeadline = document.createElement("h2")
+                div2.appendChild(alertsHeadline)
+                alertsHeadline.textContent = data.data[i].title + ": "
+                alertsLink.appendChild(div2)
+
+
                 var alertsPEl = document.createElement("p")
                 div2.appendChild(alertsPEl)
                 alertsPEl.textContent = data.data[i].description
