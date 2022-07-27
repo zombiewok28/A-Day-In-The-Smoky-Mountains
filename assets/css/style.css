@@ -92,18 +92,27 @@ h1 {
   font-size: 17px
 }
 
-#visitor{
+#amenities{
   padding-top: 20px;
-}
-
-#alertsTag{
-  min-height: 200px;
 }
 
 .weekday{
   display:flex;
   align-items:center;
   justify-content: space-between;
+}
+
+#alertsTag{
+  min-height: 200px;
+}
+ 
+.alerts {
+  text-align: center;
+  position: relative;
+}
+
+#danger{
+  margin: auto;
 }
   
 /*end body*/

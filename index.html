@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <title>Day In the Smoky Mountains</title>
+    <link rel="shortcut icon" type="image/jpg" href="./assets/image/favicon.png"
 </head>
 <body>
     
@@ -81,9 +82,7 @@
 
         <!--Weather Start-->
         <section id="weather" class="hero">
-            <h2>
-
-                Weather Forecast
+            <h2 style="color:white !important" class='title has-text-centered'>Weather Forecast
             </h2>
             <div class="weekday">
             <p>Monday</p>
@@ -99,9 +98,19 @@
         </section>
         <!--Weather End-->
 
+    <section class="alerts">
+      <div class="icon has-text-danger is-size-3 has-text-centered has-text-weight-bold">
+        <h2 id="danger">
+          ALERTS
+        </h2>
+      </div>
+    </section>
+      <!--Locations End-->
+      <div id="alertsTag" class="hero-cta columns"></div>
+
         <!--amenities start-->
         <body>
-          <div  id='visitor' class='container has-text-centered'>
+          <div   id="amenities" class='container has-text-centered'>
             <div style="background-color: #313030 !important" class='columns is-mobile is-centered'>
               <div class='column is-8'>
                 <div>
@@ -161,14 +170,6 @@
             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
             
             </iframe>
-
-            
-        </section>
-        <!--Locations End-->
-        <div id="alertsTag" class="hero-cta columns">
-            
-
-        </div>
 
         <!--Footer/Contact Info Start-->
         <footer style="background-color:rgb(79, 18, 18)" class="footer" >
