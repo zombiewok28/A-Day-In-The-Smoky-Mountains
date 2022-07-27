@@ -10,6 +10,7 @@ function getApi() {
 
     fetch(urlRequest).then(function(response) {
         console.log(response);
+        
         //request response
         if(response.ok) {
             response.json().then(function(data1) {
@@ -43,9 +44,6 @@ function getApi() {
                 }
 
                 
-                // if(weatherLink.clicked == true) {
-                //     weatherLink.innerHtml = data1;
-                // }
             })
         }
     })
@@ -74,7 +72,7 @@ function getApiTwo() {
                 div2.classList.add('card')
                 div2.classList.add('column')
                 
-
+                //alerts text appended
                 var alertsPEl = document.createElement("p")
                 div2.appendChild(alertsPEl)
                 alertsPEl.textContent = data.data[i].description
@@ -82,9 +80,6 @@ function getApiTwo() {
 
                 }
 
-                // if(alertsTag.clicked == true) {
-                //     alertsTag.innerHtml = data;
-                // }
             })
         }
     })
@@ -93,7 +88,6 @@ getApiTwo();
 
 
 
-//function displayApis(data1, data){
 
 
 
