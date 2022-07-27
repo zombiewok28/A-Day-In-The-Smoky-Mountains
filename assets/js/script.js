@@ -10,7 +10,7 @@ function getApi() {
 
     fetch(urlRequest).then(function(response) {
         console.log(response);
-        
+
         //request response
         if(response.ok) {
             response.json().then(function(data1) {
