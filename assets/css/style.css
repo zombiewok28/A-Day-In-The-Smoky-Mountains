@@ -8,6 +8,8 @@
 h1 {
     text-align: center;
 }
+
+
 header {
     display: flex;
     justify-content: space-between;
@@ -50,6 +52,8 @@ header nav {
   /*End header and nav*/
 
   /*begin body*/
+
+
   body {
     background-color: var(--grey);
   }
@@ -96,6 +100,26 @@ h1 {
   padding-top: 20px;
 }
 
+.weekday{
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+}
+
+#alertsTag{
+  min-height: 200px;
+}
+ 
+.alerts {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#danger{
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
   
 /*end body*/
 
