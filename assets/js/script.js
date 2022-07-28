@@ -57,6 +57,49 @@ function getApi() {
 }
 getApi();
 
+// Dates above weather //
+
+//day1
+
+var DateEL1 = document.getElementById("day1");
+var todaysDate = moment().format("L");
+DateEL1.textContent = todaysDate;
+console.log(todaysDate);
+
+//day2
+
+var DateEL2 = document.getElementById("day2");
+var tomorrowsDate = moment().add(1, 'day').format('l')
+DateEL2.textContent = tomorrowsDate;
+
+//day3
+
+var DateEL3 = document.getElementById("day3");
+var tomorrowsDate = moment().add(2, 'day').format('l')
+DateEL3.textContent = tomorrowsDate;
+
+//day4
+
+var DateEL4 = document.getElementById("day4");
+var tomorrowsDate = moment().add(3, 'day').format('l')
+DateEL4.textContent = tomorrowsDate;
+
+//day5
+
+var DateEL5 = document.getElementById("day5");
+var tomorrowsDate = moment().add(4, 'day').format('l')
+DateEL5.textContent = tomorrowsDate;
+
+//day6
+
+var DateEL6 = document.getElementById("day6");
+var tomorrowsDate = moment().add(5, 'day').format('l')
+DateEL6.textContent = tomorrowsDate;
+
+
+
+
+
 
 
 function getApiTwo() {
