@@ -6,10 +6,11 @@ console.log ("https://api.openweathermap.org/data/2.5/onecall?lat=35.7143&lon=83
 function getApi() {
 
      //ApiUrl
-    var urlRequest = "https://api.openweathermap.org/data/2.5/onecall?lat=35.7143&lon=83.5102&units=imperial&appid=d12707350df08c4703683ba822b2a53b";
+    var urlRequest = "https://api.openweathermap.org/data/2.5/onecall?lat=35.653194&lon=-83.50702&units=imperial&appid=d12707350df08c4703683ba822b2a53b";
 
     fetch(urlRequest).then(function(response) {
         console.log(response);
+
         //request response
         if(response.ok) {
             response.json().then(function(data1) {
@@ -28,24 +29,28 @@ function getApi() {
                     // temp
                     var pEl = document.createElement("p");
                     div.appendChild(pEl)
-                    pEl.textContent = data1.daily[i].temp.day
+                    pEl.textContent = data1.daily[i].temp.day + " ℉";
 
                     // weather
                     var pEl2 = document.createElement("p");
                     div.appendChild(pEl2)
-                    pEl2.textContent = data1.daily[0].weather[0].main
+                    pEl2.textContent = data1.daily[i].weather[0].description
+
 
                     // Icon
                     var iconImg = document.createElement("img");
                     div.appendChild(iconImg)
-                    iconImg.src = 'http://openweathermap.org/img/wn/10d@2x.png'
-                
+                   iconImg.src = iconImg.src = 'http://openweathermap.org/img/wn/10d@2x.png'
+
+                   // humidity
+                   var humidityEl = document.createElement("p");
+                   div.appendChild(humidityEl)
+                    humidityEl.textContent = " Humidity index: " + data1.daily[i].humidity
+                    
+                 
                 }
 
                 
-                // if(weatherLink.clicked == true) {
-                //     weatherLink.innerHtml = data1;
-                // }
             })
         }
     })
@@ -66,24 +71,28 @@ function getApiTwo() {
             response.json().then(function(data) {
                 console.log(data);
 
-                for (let i = 0; i < data.length; i++) {
+                for (let i = 0; i < data.data.length; i++) {
 
 
                   // create and append
                 var div2 = document.createElement("div")
                 div2.classList.add('card')
                 div2.classList.add('column')
+                
+                //alerts text appendedS
+                var alertsHeadline = document.createElement("h2")
+                div2.appendChild(alertsHeadline)
+                alertsHeadline.textContent = data.data[i].title + ": "
                 alertsLink.appendChild(div2)
+
 
                 var alertsPEl = document.createElement("p")
                 div2.appendChild(alertsPEl)
-                alertsPEl.textContent = data[i]
+                alertsPEl.textContent = data.data[i].descriptions
+                alertsLink.appendChild(div2)
 
                 }
 
-                // if(alertsTag.clicked == true) {
-                //     alertsTag.innerHtml = data;
-                // }
             })
         }
     })
@@ -92,7 +101,6 @@ getApiTwo();
 
 
 
-//function displayApis(data1, data){
 
 
 

@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <title>Day In the Smoky Mountains</title>
+    <link rel="shortcut icon" type="image/jpg" href="./assets/image/favicon.png">
 </head>
 <body>
     
@@ -38,7 +39,7 @@
             <!--End Navigation-->
 
             <!--Title start-->
-            <section id="about-us" class="hero">
+            <section id="about-us" class="Shero">
                 <div>
                     <br>
                     <h1 style="color:aliceblue" class="is-size-1">The Great Smoky Mountains</h1>
@@ -71,53 +72,6 @@
           </div>
         <!--Park history end-->
 
-
-        <!--weather API end-->
-
-        <!--amenities start-->
-<body>
-  <div  class='container has-text-centered'>
-    <div style="background-color: #313030 !important" class='columns is-mobile is-centered'>
-      <div class='column is-8'>
-        <div>
-          <h1 style="color:white !important" class='title'>Visitor Centers</h1>
-          <hr>
-        </div>
-        <table class='table'>
-          <thead>
-            <tr>
-              <th>Visitor Center</th>
-              <th>Location</th>
-             
-              <th>Exhibits</th>
-              <th>Facilities</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Oconaluftee Visitor Center</td>
-              <td>Inside the park, 2 miles north of Cherokee, NC, on US 441.</td>
-              
-              <td>The adjacent Mountain Farm Museum contains a fascinating collection of log structures including a farmhouse, barn, smokehouse, applehouse, corn cribs and others. Demonstrations of farm life are conducted seasonally.</td>
-              <td>Great Smoky Mountains Association bookstore and shop. Public restrooms and telephones. Soda and water machines. Backcountry permit station.</td>
-            </tr>
- 
-            <tr>
-              <td>Sugarlands Visitor Center</td>
-              <td>Inside the park, 2 miles south of Gatlinburg on US 441.</td>
-              
-              <td>Free admission to 20-minute film with Dolby Digital Surround Sound. Extensive natural history exhibits.</td>
-              <td>Great Smoky Mountains Association bookstore and shop. Public restrooms and telephones. Soda and water machines. Backcountry permit station.</td>
-            </tr>
- 
-
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </div>
-</body>
-        <!--Amenities End-->
         <!--wildlife Start-->
         <section id="wildlife" class="hero">
             <div class="hero-cta">
@@ -128,26 +82,81 @@
 
         <!--Weather Start-->
         <section id="weather" class="hero">
-            <h2>
-
-                Weather Forecast
-
-            
+            <h2 style="color:white !important" class='title has-text-centered'>Weather Forecast
             </h2>
+            <div class="weekday">
+            <p>Monday</p>
+            <p>tuesday</p>
+            <p>wedesday</p>
+            <p>thursday</p>
+            <p>friday</p>
+            <p>saturday</p>
+            </div>
             <div id = "weatherLink" class="hero-cta columns">
 
             </div>
 
-            <h2 style="text-align:center;"> Animal Wildlife</h2> <br>
-
-            <p>
-
+       
 
 
         </section>
         <!--Weather End-->
 
-        <br>
+    <section class="alerts">
+      <div class="icon has-text-danger is-size-3 has-text-centered has-text-weight-bold">
+        <h2 id="danger">
+          ALERTS
+        </h2>
+      </div>
+    </section>
+      <!--Locations End-->
+      <div id="alertsTag" class="hero-cta columns"></div>
+
+        <!--amenities start-->
+        <body>
+          <div   id="amenities" class='container has-text-centered'>
+            <div style="background-color: #313030 !important" class='columns is-mobile is-centered'>
+              <div class='column is-8'>
+                <div>
+                  <h1 style="color:white !important" class='title'>Visitor Centers</h1>
+                  <hr>
+                </div>
+                <table class='table'>
+                  <thead>
+                    <tr>
+                      <th>Visitor Center</th>
+                      <th>Location</th>
+                     
+                      <th>Exhibits</th>
+                      <th>Facilities</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Oconaluftee Visitor Center</td>
+                      <td>Inside the park, 2 miles north of Cherokee, NC, on US 441.</td>
+                      
+                      <td>The adjacent Mountain Farm Museum contains a fascinating collection of log structures including a farmhouse, barn, smokehouse, applehouse, corn cribs and others. Demonstrations of farm life are conducted seasonally.</td>
+                      <td>Great Smoky Mountains Association bookstore and shop. Public restrooms and telephones. Soda and water machines. Backcountry permit station.</td>
+                    </tr>
+         
+                    <tr>
+                      <td>Sugarlands Visitor Center</td>
+                      <td>Inside the park, 2 miles south of Gatlinburg on US 441.</td>
+                      
+                      <td>Free admission to 20-minute film with Dolby Digital Surround Sound. Extensive natural history exhibits.</td>
+                      <td>Great Smoky Mountains Association bookstore and shop. Public restrooms and telephones. Soda and water machines. Backcountry permit station.</td>
+                    </tr>
+         
+        
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </body>
+                <!--Amenities End-->        
+
         <!--Locations Start-->
         <section id="location" class="hero">
 
@@ -168,14 +177,6 @@
             
             </iframe>
 
-            
-        </section>
-        <!--Locations End-->
-        <div id = "alertsTag" class="hero-cta columns">
-
-            
-        </div>
-
         <!--Footer/Contact Info Start-->
         <footer style="background-color:rgb(79, 18, 18)" class="footer" >
             <div id="contact-us" class="is-size-1 has-text-centered" style="color:aliceblue">Contact Us</div>
@@ -183,11 +184,16 @@
                 <p style="color:aliceblue"> <span class="tag is-rounded is-medium is-dark">Email</span>: Thesmokymountains@gmail.com</p>
                 <p style="color:aliceblue"><span class="tag is-rounded is-medium is-dark">Phone Number</span>: 123-456-7890 </p>
                 <p style="color:aliceblue"><span class="tag is-rounded is-medium is-dark">Authors of Website</span>: 
-                    <a href="https://github.com/jasontimlin10372">Jason Timlin</a>,
-                    <a href="https://github.com/TrevorGrilley">Trevor Grilley,</a> 
-                    <a href="https://github.com/Rdeaki">Ricky Deakins,</a>
-                    <a href="https://github.com/joshuapward2">Joshua Ward,</a> And
-                    <a href="https://github.com/zombiewok28">Kimberly Tippol</a>
+                    <a href="https://github.com/jasontimlin10372"><span style="color:aliceblue" class="is-underlined has-text-weight-bold">
+                        Jason Timlin,</span></a>,
+                    <a href="https://github.com/TrevorGrilley"><span style="color:aliceblue" class="is-underlined has-text-weight-bold">
+                        Trevor Grilley,</span></a> 
+                    <a href="https://github.com/Rdeaki"><span style="color:aliceblue" class="is-underlined has-text-weight-bold">
+                        Ricky Deakins,</span></a>
+                    <a href="https://github.com/joshuapward2"><span style="color:aliceblue" class="is-underlined has-text-weight-bold">
+                        Joshua Ward,</span></a> And
+                    <a href="https://github.com/zombiewok28"><span style="color:aliceblue" class="is-underlined has-text-weight-bold">
+                        Kimberly Tippol</span></a>
                     </p>
                     <p class="tag is-rounded is-medium is-dark">
                     <a href="https://github.com/zombiewok28/A-Day-In-The-Smoky-Mountains">
