@@ -8,6 +8,8 @@
 h1 {
     text-align: center;
 }
+
+
 header {
     display: flex;
     justify-content: space-between;
@@ -50,6 +52,8 @@ header nav {
   /*End header and nav*/
 
   /*begin body*/
+
+
   body {
     background-color: var(--grey);
   }

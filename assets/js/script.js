@@ -79,7 +79,7 @@ function getApiTwo() {
                 div2.classList.add('card')
                 div2.classList.add('column')
                 
-                //alerts text appended
+                //alerts text appendedS
                 var alertsHeadline = document.createElement("h2")
                 div2.appendChild(alertsHeadline)
                 alertsHeadline.textContent = data.data[i].title + ": "
@@ -88,7 +88,7 @@ function getApiTwo() {
 
                 var alertsPEl = document.createElement("p")
                 div2.appendChild(alertsPEl)
-                alertsPEl.textContent = data.data[i].description
+                alertsPEl.textContent = data.data[i].descriptions
                 alertsLink.appendChild(div2)
 
                 }
