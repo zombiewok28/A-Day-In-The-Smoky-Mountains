@@ -1,7 +1,6 @@
 # A Day In The Smoky Mountains
 
-This site introduces you to the amazing views and history of the Smoky Mountains. We give ample amount of information for 
-the visitor to learn and be informed about the Smoky Mountains with the help of different coding languages! Come view our website and get ready to plan your next trip to the Smoky Mountains!
+This site introduces you to the amazing, history, weather, landmarks and alerts of the Smoky Mountains. We give ample amount of information for the visitor to learn and be informed about the Smoky Mountains, with the help of different coding languages! Come view our website and get ready to plan your next trip to the Smoky Mountains!
 
 The list used different aspects of each language used in the website
 
@@ -12,8 +11,11 @@ The list used different aspects of each language used in the website
 * Location 
 * Contact Info
 
-## Site Link
-[A Day In The Smoky Mountains] (https://github.com/zombiewok28/A-Day-In-The-Smoky-Mountains.git)
+## Site Links
+
+Link to deployed app: https://zombiewok28.github.io/A-Day-In-The-Smoky-Mountains/
+
+Link to GitHub repository: https://github.com/zombiewok28/A-Day-In-The-Smoky-Mountains
 
 
 
@@ -50,4 +52,15 @@ The usage of Bulma as an additionl frame work helped create many of the column e
 ###JavaScript
 
 For the apperence of the weather section of the website, a weather API was implemented into our JavaScript
-[Weather API] (https://home.openweathermap.org/api_keys)
+[Weather API]: (https://home.openweathermap.org/api_keys)
+
+
+For the appearance of the alerts sections a national park API was used.  Then navigated through to display alerts for the smoky mountains and any surrounding parks in the states of NC and TN.  [Nps/alerts API]: (https://developer.nps.gov/api/v1/alerts?stateCode=NC&stateCode=TN&api_key=mBGn4CcseyYGFZxBpAU9GrVwE4YCxrhCtPngKKZ5)
+
+
+## Screenshots
+![](assets/image/Screen%20Shot%202022-07-28%20at%205.38.18%20PM.png)
+![](assets/image/Screen%20Shot%202022-07-28%20at%205.38.36%20PM.png)
+![](assets/image/Screen%20Shot%202022-07-28%20at%205.38.53%20PM.png)
+![](assets/image/Screen%20Shot%202022-07-28%20at%205.39.06%20PM.png)
+
